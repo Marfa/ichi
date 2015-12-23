@@ -6794,9 +6794,6 @@ a.blog-logo, a.fi-home, a.fi-list, a.blog-network {
     border-bottom: none
 }
 
-a.post .tags {
-    color:#BEBEBE;
-}
 a:hover {
     color:#1f57a1
 }
@@ -7137,7 +7134,6 @@ a:hover {
     position:relative;
     text-align:center;
     background:#333;
-    border-bottom:4px solid #4a89dc
 }
 .main-column .pagination a {
     position:absolute;
@@ -7166,7 +7162,6 @@ a:hover {
     overflow:hidden;
     padding:1.5em;
     margin-bottom:1.5rem;
-    border-bottom:#4a89dc 2px solid;
     position:relative;
     -moz-box-shadow:0 0 25px 0 rgba(0, 0, 0, 0.1);
     -webkit-box-shadow:0 0 25px 0 rgba(0, 0, 0, 0.1);
@@ -7258,7 +7253,7 @@ a:hover {
 }
 .post .tags a {
     text-transform:uppercase;
-    color:#4a89dc
+    color:#BEBEBE
 }
 .post .tags a:hover {
     color:#1f57a1;
@@ -7518,7 +7513,7 @@ a:hover {
     }
 }
 .site-footer section a {
-    color:#4a89dc
+    color:#252525
 }
 .site-footer section a:hover {
     text-decoration:underline;
