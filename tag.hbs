@@ -8,7 +8,7 @@
 <main class="content" role="main">
 
         <header class="tag-archive-header">
-            <h1>{{tag.name}}</h1>
+            <h1>Показаны посты с тегом: {{tag.name}}</h1>
         </header>
 
     {{! Each post will be output using this markup }}
@@ -27,11 +27,11 @@
             <section class="post-excerpt">
                 <p>{{excerpt characters="400"}}&hellip;</p>
             </section>
-            <a class="button read-more right small" href="{{url}}">Read more</a>
+            <a class="button read-more right small" href="{{url}}">Читать дальше</a>
             {{#if tags}}
             <aside class="tags fi-pricetag-multiple">{{tags prefix="Posted on "}}</aside>
             {{else}}
-            <aside class="tags fi-pricetag-multiple">No tag</aside>
+            <aside class="tags fi-pricetag-multiple">Нет тегов</aside>
             {{/if}}
             <div class="clearfix"></div>
         </div>
