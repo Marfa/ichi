@@ -6880,10 +6880,10 @@ a:hover {
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
-    background-color:#4a89dc
+    background-color:#252525c
 }
 .head-area:not(.bgimage):hover {
-    background:#0f294b
+    background-color:#252525
 }
 .head-area:not(.bgimage):after {
     display:none;
