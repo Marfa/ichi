@@ -6950,7 +6950,8 @@ a:hover {
     border:2px solid white;
     -moz-border-radius:100px;
     -webkit-border-radius:100px;
-    border-radius:100px
+    border-radius:100px;
+    margin-bottom:20px;
 }
 .site-head .blog-logo:hover {
     -moz-transform:scale(1.1);
