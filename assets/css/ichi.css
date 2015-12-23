@@ -7282,8 +7282,8 @@ a:hover {
 }
 .post-template .post .post-title {
     margin:-1.5em;
-    background:#4a89dc;
-    color:white;
+    background:#e1e1e1;
+    border:1.5px solid black;
     margin:-1.5rem -1.5rem 0;
     padding:1.5rem
 }
@@ -7471,6 +7471,7 @@ a:hover {
     box-shadow:0 2px 10px 0 rgba(0, 0, 0, 0.2)
 }
 .post>a img {
+    border:1.5px solid black;
     width:100%;
     height:auto;
     -moz-box-shadow:0 2px 10px 0 rgba(0, 0, 0, 0.2);
