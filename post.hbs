@@ -17,41 +17,18 @@
             <section class="post-content">
                 {{content}}
                         {{#if tags}}
-                        <aside class="tags fi-pricetag-multiple">{{tags prefix="Posted on "}}</aside>
+                        <aside class="tags fi-pricetag-multiple">{{tags prefix="Опубликовано в "}}</aside>
                         {{else}}
-                        <aside class="tags fi-pricetag-multiple">No tag</aside>
+                        <aside class="tags fi-pricetag-multiple">Нет тегов</aside>
                         {{/if}}
             </section>
             <hr>
             <footer class="post-footer">
 
-                <section class="share">
-                    <h4>Liked this post ? Share it.</h4>
-                    <a class="fi-social-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    </a>
-                    <a class="fi-social-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
-                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    </a>
-                    <a class="fi-social-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
-                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                    </a>
-                </section>
-
-                <section class="author">
-                    <header>
-                        <span>About the author</span>
-                    </header>
-                    <section>
-                        <h4>{{author.name}}</h4>
-                        {{#if author.image}}<img src="{{author.image}}">{{/if}}
-                        {{#if author.location}}<span>{{author.location}}</span>{{/if}}
-                        {{#if author.website}}<a href="{{author.website}}">{{author.website}}</a>{{/if}}
-                    </section>
-                    <footer>
-                         <p>{{author.bio}}</p>
-                    </footer>
-                </section>
+            <p>Не забываем поделиться статьей и подписаться на мой <a href="//blog.themarfa.name/feed.xml" target="_blank" title="RSS-канал">RSS-канал</a>.</p>
+            <p>Читайте меня в: <a href="https://www.evernote.com/pub/marfapr/themarfaname" target="_blank" title="Evernote">Evernote</a>, <a href="https://www.facebook.com/Marfapr" target="_blank" title="Facebook">Facebook</a>, <a href="https://plus.google.com/+КонстантинДокучаев" target="_blank" title="Google +">Google+</a>, <a href="https://www.pinterest.com/themarfa/" target="_blank" title="Pinterest">Pinterest</a>, <a href="https://www.pushbullet.com/channel?tag=oneperson" target="_blank" title="Pushbullet">Pushbullet</a>, <a href="http://telegram.me/themarfa" target="_blank" title="Telegram">Telegram</a>, <a href="//twitter.com/Marfapr" target="_blank" title="Twitter">Twitter</a>, <a href="https://vk.com/themarfa" target="_blank" title="VK">VK</a>.</p>
+            <p>Всегда рад ответить на ваши комментарии.</p>
+            <p>Для бизнес предложений пишите на biz@themarfa.name</p>
 
         <div class="clearfix"></div>
                     <hr>
