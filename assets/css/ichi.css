@@ -6793,6 +6793,10 @@ a {
 a.blog-logo, a.fi-home, a.fi-list, a.blog-network {
     border-bottom: none
 }
+
+a.post .tags {
+    color:#BEBEBE;
+}
 a:hover {
     color:#1f57a1
 }
