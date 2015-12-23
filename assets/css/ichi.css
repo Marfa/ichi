@@ -6789,6 +6789,10 @@ a {
     border-bottom: 1px dotted #e1e1e1;
     color: #111111;
 }
+
+a.blog-logo, a.fi-home, a.fi-list, a.blog-network {
+    border-bottom: none
+}
 a:hover {
     color:#1f57a1
 }
