@@ -6786,7 +6786,7 @@ button, .button, a, span, li, .head-area:after, hr, img, .read-more:before, main
     transition:all 0.3s
 }
 a {
-    border-bottom: 1px dotted #e1e1e1;
+    border-bottom: 2px dotted #e1e1e1;
     color: #111111;
 }
 
@@ -7186,7 +7186,7 @@ a:hover {
 }
 .post .read-more {
     margin-bottom:0;
-    background:#4a89dc;
+    background:#252525;
     padding:0.7rem 1.6rem;
     border-radius:3px;
     width:100%;
@@ -7500,7 +7500,7 @@ a:hover {
     }
 }
 .post>div .post-header .post-meta {
-    background:#4a89dc
+    background:#252525
 }
 .site-footer section {
     font-size:0.8rem;
