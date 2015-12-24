@@ -7371,8 +7371,14 @@ a:hover {
     color:#276ecc
 }
 .post-template .post .author {
-    padding-top:10px;
-    text-align:left;
+    background:#4a89dc;
+    margin-top:20px;
+    color:white;
+    width:100%;
+    border-radius:8px;
+    border-bottom:2px solid #2363b6;
+    text-align:center;
+    line-height:2.3
 }
 @media screen and(min-width: 64.063em) {
     .post-template .post .author {
