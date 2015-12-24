@@ -6790,7 +6790,11 @@ a {
     color: #111111;
 }
 
-a.blog-logo, a.fi-home, a.fi-list, a.blog-network, a.site-head .blog-description {
+a.blog-logo, a.fi-home, a.fi-list, a.blog-network {
+    border-bottom: none;
+}
+
+.site-head .blog-description a {
     border-bottom: none;
     color: white;
 }
