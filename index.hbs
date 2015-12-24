@@ -10,6 +10,11 @@
 
 {{! The main content area on the homepage }}
 <main class="content" role="main">
+<nav class="site-nav">
+    <ul class="nav-menu">
+    {{navigation}}
+    </ul>
+</nav>    
 
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
