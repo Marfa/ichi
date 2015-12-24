@@ -3185,6 +3185,11 @@ ul.pagination li {
     margin: 30px 0;
     display:block;
 }
+@media (max-width: 650px) {
+    .site-nav {
+    display:none;
+}
+}
 .nav-menu {
     margin-left: 0;
     text-align: center;
@@ -7223,9 +7228,6 @@ a:hover {
         margin-left:15px;
         width:auto
     }
-    .site-nav {
-    display: none;
-}
 }
 .post .read-more:before {
     content:"\f16c";
