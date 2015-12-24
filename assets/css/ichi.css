@@ -7176,6 +7176,9 @@ a:hover {
 .post p {
     font-size:0.999rem;
     line-height:2
+    text-indent: 1.5em;
+    text-align: justify;
+}
 }
 .post .read-more {
     margin-bottom:0;
@@ -7429,7 +7432,6 @@ a:hover {
 }
 .post-template .post .author section a {
     text-align:left;
-    padding-right:100px;
     color:#4a89dc;
     float:left;
     clear:both;
