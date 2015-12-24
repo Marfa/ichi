@@ -7371,12 +7371,11 @@ a:hover {
     color:#276ecc
 }
 .post-template .post .author {
-    background:#4a89dc;
-    margin-top:20px;
+    background:#252525;
+    margin-top:75px;
     color:white;
     width:100%;
     border-radius:8px;
-    border-bottom:2px solid #2363b6;
     text-align:center;
     line-height:2.3
 }
@@ -7388,14 +7387,13 @@ a:hover {
     }
 }
 .post-template .post .author header span {
-    color:#266ac3;
     font-size:1.4rem;
     font-weight:900;
-    font-family:"source sans pro", arial, sans-serif;
+    font-family:'Roboto', 'Open Sans', sans-serif;
     text-transform:uppercase
 }
 .post-template .post .author section {
-    background:#eee;
+    background:#e1e1e1;
     position:relative;
     overflow:hidden;
     padding:10px
@@ -7420,7 +7418,7 @@ a:hover {
 }
 .post-template .post .author section img {
     position:absolute;
-    right:-10px;
+    right:10px;
     max-width:120px;
     height:100%;
     max-height:120px;
