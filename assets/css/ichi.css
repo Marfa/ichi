@@ -1748,7 +1748,7 @@ meta.foundation-mq-topbar {
     padding:0 15px
 }
 .top-bar .toggle-topbar {
-    position:absolute;
+    position:fixed;
     right:0;
     top:0
 }
@@ -6869,20 +6869,7 @@ a:hover {
     margin:0.1em;
     border-bottom: none;
 }
-.blog-network a:hover {
-    background:#4a89dc;
-    margin-left:7px;
-    margin-right:7px;
-    -moz-border-radius:50px;
-    -webkit-border-radius:50px;
-    border-radius:50px
-}
-.blog-network a:first-of-type:hover {
-    margin-right:0
-}
-.blog-network a:last-of-type:hover {
-    margin-left:0
-}
+
 .head-area {
     margin-top:-50px;
     padding-top:30px;
