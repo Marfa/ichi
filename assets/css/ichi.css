@@ -6771,7 +6771,7 @@ th.hide-for-touch {
 }
 body {
     font-family:'Roboto', 'Open Sans', sans-serif;
-    background:url("../images/main-background.jpg") repeat
+    background-color: #f1f1f1;
 }
 body>.row {
     max-width:100%
@@ -6790,8 +6790,9 @@ a {
     color: #111111;
 }
 
-a.blog-logo, a.fi-home, a.fi-list, a.blog-network {
-    border-bottom: none
+a.blog-logo, a.fi-home, a.fi-list, a.blog-network, a.site-head .blog-description {
+    border-bottom: none;
+    color: white;
 }
 
 a:hover {
@@ -6945,8 +6946,8 @@ a:hover {
     transition:0.3s
 }
 .site-head .blog-logo img {
-    width:100px;
-    height:100px;
+    width:3.75rem;
+    height:3.75rem;
     border:2px solid white;
     -moz-border-radius:100px;
     -webkit-border-radius:100px;
