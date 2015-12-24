@@ -184,7 +184,7 @@ body {
     color:#222;
     padding:0;
     margin:0;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     font-weight:normal;
     font-style:normal;
     line-height:1;
@@ -1491,7 +1491,7 @@ button, .button {
     border-style:solid;
     border-width:0px;
     cursor:pointer;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     font-weight:normal;
     line-height:normal;
     margin:0 0 1.25rem;
@@ -1826,7 +1826,7 @@ meta.foundation-mq-topbar {
     color:#fff;
     padding:12px 0 12px 0;
     padding-left:15px;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     font-size:0.8125rem;
     font-weight:normal;
     text-transform:none;
@@ -3063,7 +3063,7 @@ meta.foundation-mq-topbar {
     background:#efefef;
     color:#222;
     padding:1rem 2rem;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     font-size:1rem
 }
 .tabs dd>a:hover {
@@ -3233,7 +3233,7 @@ ul.pagination li {
     color:#222;
     padding:1rem;
     display:block;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     font-size:1rem
 }
 .accordion dd>a:hover {
@@ -3432,7 +3432,7 @@ p aside {
     font-style:italic
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     font-weight:normal;
     font-style:normal;
     color:#222;
@@ -4238,7 +4238,7 @@ dialog[open] {
     display:inline;
     margin-left:1rem;
     margin-bottom:0.625rem;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     font-weight:normal;
     font-size:0.875rem;
     color:#999
@@ -4417,7 +4417,7 @@ dialog[open] {
 }
 .label {
     font-weight:normal;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     text-align:center;
     text-decoration:none;
     line-height:1;
@@ -6770,14 +6770,14 @@ th.hide-for-touch {
     content:"\f21a"
 }
 body {
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     background-color: #f1f1f1;
 }
 body>.row {
     max-width:100%
 }
 h1 {
-    font-family:"source sans pro", "helvetica neue", helvetica, arial, sans-serif
+    font-family:"Roboto", "Open Sans", sans-serif;
 }
 button, .button, a, span, li, .head-area:after, hr, img, .read-more:before, main, .post {
     -moz-transition:all 0.3s;
@@ -7392,7 +7392,7 @@ a:hover {
 .post-template .post .author header span {
     font-size:1.4rem;
     font-weight:900;
-    font-family:'Roboto', 'Open Sans', sans-serif;
+    font-family:"Roboto", "Open Sans", sans-serif;
     text-transform:uppercase
 }
 .post-template .post .author section {
