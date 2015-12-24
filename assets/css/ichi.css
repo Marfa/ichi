@@ -3183,6 +3183,7 @@ ul.pagination li {
 /* Site nav */
  .site-nav {
     margin: 30px 0;
+    display:block;
 }
 .nav-menu {
     margin-left: 0;
@@ -7222,6 +7223,9 @@ a:hover {
         margin-left:15px;
         width:auto
     }
+    .site-nav {
+    display: none;
+}
 }
 .post .read-more:before {
     content:"\f16c";
