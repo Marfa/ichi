@@ -7159,7 +7159,7 @@ a:hover {
     box-shadow:0 0 25px 0 rgba(0, 0, 0, 0.1)
 }
 .post.featured {
-    background-color:red;
+    box-shadow: 0 0 60px #111;
 }
 @media screen and(min-width: 64.063em) {
     .post {
