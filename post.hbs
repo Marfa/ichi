@@ -11,6 +11,8 @@
         {{#post}}
 
             <h1 class="post-title">{{{title}}}</h1>
+            
+            <section class="author"><p>Автор: {{author.name}}</p></section>
 
             <span class="post-meta label"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time></span>
 
@@ -21,9 +23,6 @@
                         {{else}}
                         <aside class="tags fi-pricetag-multiple">Нет тегов</aside>
                         {{/if}}
-                        <section class="author">
-                        <p>Автор: {{author.name}}</p>
-                        </section>
             </section>
             <hr>
             <footer class="post-footer">

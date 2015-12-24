@@ -6794,7 +6794,7 @@ a.blog-logo, a.fi-home, a.fi-list, a.blog-network {
     border-bottom: none;
 }
 
-.site-head .blog-description a {
+.site-head .blog-description a, .site-head .blog-title a {
     border-bottom: none;
     color: white;
 }
@@ -7372,7 +7372,7 @@ a:hover {
 }
 .post-template .post .author {
     padding-top:10px;
-    text-align:right;
+    text-align:left;
 }
 @media screen and(min-width: 64.063em) {
     .post-template .post .author {
