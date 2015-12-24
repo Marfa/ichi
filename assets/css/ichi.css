@@ -6786,7 +6786,7 @@ button, .button, a, span, li, .head-area:after, hr, img, .read-more:before, main
     transition:all 0.3s
 }
 a {
-    border-bottom: 2px dotted #e1e1e1;
+    border-bottom: 2px dotted #111;
     color: #111111;
 }
 
@@ -7174,7 +7174,7 @@ a:hover {
     }
 }
 .post p {
-    font-size:0.9rem;
+    font-size:0.999rem;
     line-height:2
 }
 .post .read-more {
