@@ -7137,13 +7137,13 @@ a:hover {
 .main-column .pagination {
     position:relative;
     text-align:center;
-    background:#333;
+    background:#252525;
 }
 .main-column .pagination a {
     position:absolute;
     font-size:1.5rem;
     color:white;
-    background:#333
+    background:#252525
 }
 .main-column .pagination a:first-child {
     left:0
@@ -7152,7 +7152,7 @@ a:hover {
     right:0
 }
 .main-column .pagination a:hover {
-    color:#4a89dc;
+    color:#e1e1e1;
     background:#fff
 }
 .main-column .pagination .page-number {
