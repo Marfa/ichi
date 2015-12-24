@@ -1506,8 +1506,7 @@ button, .button {
     padding-bottom:1.0625rem;
     padding-left:2rem;
     font-size:1rem;
-    background-color:#2ba6cb;
-    border-color:#2285a2;
+    background-color:#111;
     color:#fff;
     transition:background-color 300ms ease-out
 }
@@ -7432,7 +7431,6 @@ a:hover {
 }
 .post-template .post .author section a {
     text-align:left;
-    color:#4a89dc;
     float:left;
     clear:both;
     font-size:0.8rem;
