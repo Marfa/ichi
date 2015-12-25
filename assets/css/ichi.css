@@ -7406,7 +7406,7 @@ a:hover {
     color:#276ecc
 }
 .post-template .post .author {
-    display:author;
+    display:block;
     background:#252525;
     margin-top:75px;
     color:white;
