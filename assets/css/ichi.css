@@ -7080,17 +7080,13 @@ a:hover {
 }
 .overlay ul li {
     display:block;
-    height:30%;
-    min-height:54px;
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden
 }
 .overlay ul li a {
-    font-size:54px;
+    font-size:25px;
     font-weight:300;
-    display:block;
     color:#fff;
-    padding:0 20px
 }
 .overlay ul li a:before {
     display:none
@@ -7410,6 +7406,7 @@ a:hover {
     color:#276ecc
 }
 .post-template .post .author {
+    display:author;
     background:#252525;
     margin-top:75px;
     color:white;
@@ -7418,6 +7415,11 @@ a:hover {
     text-align:center;
     line-height:2.3
 }
+@media (max-width: 360px) {
+    .post-template .post .author {
+    display:none;
+}
+
 @media screen and(min-width: 64.063em) {
     .post-template .post .author {
         width:50%;
