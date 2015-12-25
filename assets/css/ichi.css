@@ -7415,6 +7415,12 @@ a:hover {
     line-height:2.3
 }
 
+@media (max-width: 360px) {
+    .post-template .post .author {
+    display:none;
+}
+}
+
 @media screen and(min-width: 64.063em) {
     .post-template .post .author {
         width:50%;
