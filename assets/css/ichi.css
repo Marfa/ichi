@@ -7080,13 +7080,11 @@ a:hover {
 }
 .overlay ul li {
     display:block;
-    height:30%;
-    min-height:54px;
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden
 }
 .overlay ul li a {
-    font-size:54px;
+    font-size:25px;
     font-weight:300;
     display:block;
     color:#fff;
