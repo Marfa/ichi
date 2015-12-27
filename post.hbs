@@ -8,7 +8,16 @@
     <ul class="nav-menu">
     {{navigation}}
     </ul>
-</nav>   
+</nav>
+{{#get "tags" limit="all" include="count.posts" order="count.posts desc"}}
+<div class="tags" name="top">
+				<label class="spoiler">
+				<input type="checkbox" style="display:none">
+				<div>Показать облако тегов</div>
+                <div class="tagsh">{{#foreach tags}} <a href="/tag/{{slug}}">#{{name}}</a>{{/foreach}}</div>
+				</label>
+</div>
+{{/get}}
 
     <article class="{{post_class}}">
 
