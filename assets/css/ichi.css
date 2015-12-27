@@ -7269,6 +7269,10 @@ a:hover {
     padding: 5px 0 5px 5px;
 }
 
+.tagcloud .a{
+    margin: 0.5em;
+}
+
 .spoiler {
     display: block;
     width: auto;
@@ -7276,7 +7280,6 @@ a:hover {
 }
 .spoiler > .tagcloud2 {
     padding: 4px;
-    border-top: #ccc solid 1px;
     display: none;
 }
 .spoiler > :checked ~ .tagcloud2 {
