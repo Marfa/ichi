@@ -15,15 +15,6 @@
     {{navigation}}
     </ul>
 </nav>
-{{#get "tags" limit="all" order="title asc"}}
-<div class="tagcloud" name="top">
-				<label class="spoiler">
-				<input type="checkbox" style="display:none">
-				<div>Показать облако тегов</div>
-                <div class="tagcloud2">{{#foreach tags}} <a href="/tag/{{slug}}">#{{name}}</a>{{/foreach}}</div>
-				</label>
-</div>
-{{/get}}
 
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
