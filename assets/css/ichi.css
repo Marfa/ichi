@@ -6818,7 +6818,11 @@ button, .button, a, span, li, .head-area:after, hr, img, .read-more:before, main
     -webkit-transition:all 0.3s;
     transition:all 0.3s
 }
-a {
+a { -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
     border-bottom: 2px dotted #111;
     color: #111111;
 }
@@ -7270,7 +7274,7 @@ a:hover {
 }
 
 .tagcloud2 a{
-    margin: 0.5em;
+    margin-right: 0.5em;
 }
 
 .spoiler {

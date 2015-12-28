@@ -11,7 +11,7 @@
     {{navigation}}
     </ul>
 </nav>
-{{#get "tags" limit="all" include="count.posts" order="count.posts desc"}}
+{{#get "tags" limit="all" order="title asc"}}
 <div class="tagcloud" name="top">
 				<label class="spoiler">
 				<input type="checkbox" style="display:none">
@@ -22,7 +22,7 @@
 {{/get}}
 
         <header class="tag-archive-header">
-            <h1>Показаны посты с тегом: {{tag.name}}</h1>
+            <h2>Показаны посты с тегом: {{tag.name}}</h1>
         </header>
 
     {{! Each post will be output using this markup }}
