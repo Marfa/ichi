@@ -3292,6 +3292,22 @@ ul.pagination li {
 .text-justify {
     text-align:justify !important
 }
+
+.gsc-control-cse {
+  font-family: Arial, sans-serif;
+  border-color: black !Important;
+  background-color: #E1E1E1 !Important;
+  margin-bottom: 10px;
+}
+
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+  width: 70px !Important;
+  height: 30px !Important;
+  padding: 6px 27px;
+  min-width: 13px;
+  margin-top: 2px;
+}
+
 @media only screen and(max-width: 40em) {
     .small-only-text-left {
         text-align:left !important
