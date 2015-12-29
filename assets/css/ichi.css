@@ -3293,6 +3293,10 @@ ul.pagination li {
     text-align:justify !important
 }
 
+.table.gsc-search-box{
+    background-color: #e1e1e1
+}
+
 .gsc-control-cse {
   font-family: Arial, sans-serif;
   border-color: black !Important;
@@ -3306,6 +3310,157 @@ ul.pagination li {
   padding: 6px 27px;
   min-width: 13px;
   margin-top: 2px;
+}
+
+/* Mobile first queries */
+
+@media (min-width: 240px) {
+.snack {
+    display: none !important}
+.fb_iframe_widget {
+    display: none !important}  
+.fancybox-opened .fancybox-skin {
+    max-width: 240px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 190px !important;
+    height: auto !important;
+}
+}
+
+@media (min-width: 320px) {
+.snack {
+    display: none !important}
+.fb_iframe_widget {
+    display: none !important}  
+.fancybox-opened .fancybox-skin {
+    max-width: 320px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 270px !important;
+    height: auto !important;
+}
+}
+
+@media (min-width: 360px) {
+.snack {
+    display: none !important}
+.fb_iframe_widget {
+    display: none !important}
+.fancybox-opened .fancybox-skin {
+    max-width: 360px !important;
+    height: auto;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 310px !important;
+    height: auto !important;
+}
+}
+
+/* Larger than phablet */
+
+@media (min-width: 400px) {
+.snack {
+    display: none !important}
+.fb_iframe_widget {
+    display: inline-block !important}
+.fancybox-opened .fancybox-skin {
+    max-width: 400px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 350px !important;
+    height: auto !important;
+}
+}
+
+@media (min-width: 480px) {
+.snack {
+    display: none !important}
+.fb_iframe_widget {
+    display: inline-block !important}
+.fancybox-opened .fancybox-skin {
+    max-width: 480px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 430px !important;
+    height: auto !important;
+}
+}
+
+@media (min-width: 550px) {
+.snack {
+    display: inline-block !important}
+.fb_iframe_widget {
+    display: inline-block !important}
+.fancybox-opened .fancybox-skin {
+    max-width: 550px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 500px !important;
+    height: auto !important;
+}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+.snack {
+    display: inline-block !important}
+.fb_iframe_widget {
+    display: inline-block !important}
+.fancybox-opened .fancybox-skin {
+    max-width: 750px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 700px !important;
+    height: auto !important;
+}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+.snack {
+    display: inline-block !important}
+.fb_iframe_widget {
+    display: inline-block !important}
+.fancybox-opened .fancybox-skin {
+    max-width: 1000px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 950px !important;
+    height: auto !important;
+}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+.snack {
+    display: inline-block !important}
+.fb_iframe_widget {
+    display: inline-block !important}
+.fancybox-opened .fancybox-skin {
+    max-width: 1200px !important;
+    height: auto !important;}
+
+.fancybox-image, .fancybox-iframe {
+    display: block;
+    max-width: 1150px !important;
+    height: auto !important;
+}
 }
 
 @media only screen and(max-width: 40em) {
