@@ -9,6 +9,21 @@
     {{navigation}}
     </ul>
 </nav>
+                    <!--Google Search-->
+                                    <script>
+                                      (function() {
+                                        var cx = '001606015601898518603:yzedigpcvsy';
+                                        var gcse = document.createElement('script');
+                                        gcse.type = 'text/javascript';
+                                        gcse.async = true;
+                                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                            '//www.google.com/cse/cse.js?cx=' + cx;
+                                        var s = document.getElementsByTagName('script')[0];
+                                        s.parentNode.insertBefore(gcse, s);
+                                      })();
+                                    </script>
+                                    <gcse:search></gcse:search>
+                    <!--End Google Search-->
     <article class="{{post_class}}">
 
         {{! Everything inside the #post tags pulls data from the post }}
@@ -19,7 +34,41 @@
             <span class="post-meta label"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time></span>
 
             <section class="post-content">
+                        <!--Share-->
+                        <script type="text/javascript">(function(w,doc) {
+                        if (!w.__utlWdgt ) {
+                            w.__utlWdgt = true;
+                            var d = doc, s = d.createElement('script'), g = 'getElementsByTagName';
+                            s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+                            s.src = ('https:' == w.location.protocol ? 'https' : 'http')  + '://w.uptolike.com/widgets/v1/uptolike.js';
+                            var h=d[g]('body')[0];
+                            h.appendChild(s);
+                        }})(window,document);
+                        </script>
+                        <div data-mobile-view="true" data-share-size="20" data-follow-button-text="ПРИСОЕДИНЯЙТЕСЬ" data-like-text-enable="false" data-additional-network-text="а еще я есть в:" data-background-alpha="1.0" data-pid="1260830" data-mode="share" data-background-color="#e1e1e1" data-hover-effect="scale" data-share-shape="round" data-share-counter-size="8" data-icon-color="#ffffff" data-mobile-sn-ids="fb.vk.tw.wh.ok.gp." data-text-color="#000000" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-type="common" data-follow-text="прямо в %network%" data-orientation="fixed-top" data-following-enable="true" data-follow-gp="+КонстантинДокучаев" data-sn-ids="fb.tw.gp.ev.gt." data-preview-mobile="false" data-follow-rss="blog.themarfa.name/feed.xml" data-selection-enable="false" data-follow-title="Получайте обновления" data-exclude-show-more="false" data-share-style="7" data-follow-tw="Marfapr" data-counter-background-alpha="1.0" data-top-button="true" data-follow-fb="Marfapr" class="uptolike-buttons" ></div>
+                        <!--End Share-->
+<!--Google Adsence-->
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- blog up -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:320px;height:100px"
+                                 data-ad-client="ca-pub-6070814285497936"
+                                 data-ad-slot="3394654804"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            <!--End Google Adsence-->
+                                <!--Poсket-->
+                                <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+                                <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>                        
                 {{content}}
+                                <div class="snack">
+                                <p>При поддержке:</p>
+                                <script type="text/javascript">
+                                var bannersnack_embed = {"hash":"bc5sbs5jo","width":500,"height":150,"t":1445979234,"userId":7264066,"type":"html5"};
+                                </script>
+                                <script type="text/javascript" src="http://files.bannersnack.com/iframe/embed.js"></script>
+                                </div>                
                         {{#if tags}}
                         <aside class="tags fi-pricetag-multiple">{{tags prefix="Опубликовано в "}}</aside>
                         {{else}}
@@ -80,5 +129,20 @@
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        $(".post-content img").wrap(function(){
+            return '<a class="fancybox" rel="gallery" href="' + $(this).attr('src') + '">' + $(this).html() + '</a>';
+        })
+        $(".fancybox").fancybox({
+          helpers: {
+            overlay: {
+              locked: false
+            }
+          }
+        })
+      })
+    </script>    
 
 </main>
