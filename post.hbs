@@ -9,21 +9,21 @@
     {{navigation}}
     </ul>
 </nav>
-                    <!--Google Search-->
-                                    <script>
-                                      (function() {
-                                        var cx = '001606015601898518603:yzedigpcvsy';
-                                        var gcse = document.createElement('script');
-                                        gcse.type = 'text/javascript';
-                                        gcse.async = true;
-                                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                                            '//www.google.com/cse/cse.js?cx=' + cx;
-                                        var s = document.getElementsByTagName('script')[0];
-                                        s.parentNode.insertBefore(gcse, s);
-                                      })();
-                                    </script>
-                                    <gcse:search></gcse:search>
-                    <!--End Google Search-->
+    <!--Google Search-->
+        <script>
+        (function() {
+        var cx = '001606015601898518603:yzedigpcvsy';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(gcse, s);
+        })();
+        </script>
+        <gcse:search></gcse:search>
+    <!--End Google Search-->
     <article class="{{post_class}}">
 
         {{! Everything inside the #post tags pulls data from the post }}
@@ -61,7 +61,7 @@
                                 <!--Poсket-->
                                 <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
                                 <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>                        
-                {{content}}
+                                {{content}}
                               <div class="snack">
                                 <p>При поддержке:</p>
                                 <script type="text/javascript">
@@ -161,19 +161,4 @@
             </div>
         </footer>
     </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script type="text/javascript">
-      jQuery(document).ready(function($){
-        $(".post-content img").wrap(function(){
-            return '<a class="fancybox" rel="gallery" href="' + $(this).attr('src') + '">' + $(this).html() + '</a>';
-        })
-        $(".fancybox").fancybox({
-          helpers: {
-            overlay: {
-              locked: false
-            }
-          }
-        })
-      })
-    </script>    
 </main>
