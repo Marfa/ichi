@@ -9,21 +9,21 @@
     {{navigation}}
     </ul>
 </nav>
-    <!--Google Search-->
-        <script>
-        (function() {
-        var cx = '001606015601898518603:yzedigpcvsy';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-         s.parentNode.insertBefore(gcse, s);
-        })();
-        </script>
-        <gcse:search></gcse:search>
-    <!--End Google Search-->
+                    <!--Google Search-->
+                                    <script>
+                                      (function() {
+                                        var cx = '001606015601898518603:yzedigpcvsy';
+                                        var gcse = document.createElement('script');
+                                        gcse.type = 'text/javascript';
+                                        gcse.async = true;
+                                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                            '//www.google.com/cse/cse.js?cx=' + cx;
+                                        var s = document.getElementsByTagName('script')[0];
+                                        s.parentNode.insertBefore(gcse, s);
+                                      })();
+                                    </script>
+                                    <gcse:search></gcse:search>
+                    <!--End Google Search-->
     <article class="{{post_class}}">
 
         {{! Everything inside the #post tags pulls data from the post }}
@@ -47,7 +47,7 @@
                         </script>
                         <div data-background-alpha="1.0" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-size="8" data-follow-button-text="ПРИСОЕДИНЯЙТЕСЬ" data-top-button="true" data-share-counter-type="common" data-share-style="7" data-mode="share" data-follow-vk="themarfa" data-additional-network-text="а еще я есть в:" data-like-text-enable="false" data-follow-rss="blog.themarfa.name/feed.xml" data-follow-tw="Marfapr" data-hover-effect="scale" data-mobile-view="true" data-icon-color="#ffffff" data-follow-text="прямо в %network%" data-orientation="fixed-top" data-text-color="#000000" data-share-shape="round" data-follow-ps="http://www.pinterest.com/themarfa/" data-sn-ids="vk.tw.fb.gp.ok.ev.gt." data-share-size="20" data-background-color="#e1e1e1" data-preview-mobile="false" data-mobile-sn-ids="fb.vk.tw.wh.ok.gp." data-pid="1260830" data-counter-background-alpha="1.0" data-follow-title="Получайте обновления" data-follow-gp="+КонстантинДокучаев" data-following-enable="true" data-exclude-show-more="false" data-selection-enable="false" data-follow-fb="Marfapr" class="uptolike-buttons" ></div>
                         <!--End Share-->
-                        <!--Google Adsence-->
+<!--Google Adsence-->
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                             <!-- blog up -->
                             <ins class="adsbygoogle"
@@ -61,7 +61,7 @@
                                 <!--Poсket-->
                                 <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
                                 <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>                        
-                                {{content}}
+                {{content}}
                               <div class="snack">
                                 <p>При поддержке:</p>
                                 <script type="text/javascript">
@@ -88,17 +88,7 @@
                     <footer>
                          <p>{{author.bio}}</p>
                     </footer>
-                </section>
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- Google Adsense -->
-                <ins class="adsbygoogle"
-                     style="display:inline-block;width:320px;height:50px"
-                     data-ad-client="ca-pub-6070814285497936"
-                     data-ad-slot="8899964401"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-                <!-- Google Adsense -->
+                </section>            
             <hr>
             <footer class="post-footer">
 
@@ -161,4 +151,19 @@
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        $(".post-content img").wrap(function(){
+            return '<a class="fancybox" rel="gallery" href="' + $(this).attr('src') + '">' + $(this).html() + '</a>';
+        })
+        $(".fancybox").fancybox({
+          helpers: {
+            overlay: {
+              locked: false
+            }
+          }
+        })
+      })
+    </script>    
 </main>
