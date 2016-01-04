@@ -163,7 +163,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script type="text/javascript">
       jQuery(document).ready(function($){
-        $(".post-content img").wrap(function(){
+        $(".post img").wrap(function(){
             return '<a class="fancybox" rel="gallery" href="' + $(this).attr('src') + '">' + $(this).html() + '</a>';
         })
         $(".fancybox").fancybox({
