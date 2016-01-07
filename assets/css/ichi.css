@@ -3325,6 +3325,10 @@ ul.pagination li {
   border-bottom:none;
 }
 
+.utl-mobile .uptl_container-share {
+    top: 0 !important;
+}
+
 
 /* Mobile first queries */
 
