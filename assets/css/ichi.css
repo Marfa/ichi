@@ -3341,6 +3341,11 @@ ul.pagination li {
     float: right
 }
 
+#at4-whatsnextmobile {
+    top: 0 !Important;
+    width: 80% !Important;
+}
+
 /* Mobile first queries */
 
 @media (min-width: 240px) {
