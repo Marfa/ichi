@@ -3325,6 +3325,17 @@ ul.pagination li {
   border-bottom:none;
 }
 
+#mc_embed_signup {
+    float: left;
+}
+
+#mc_embed_signup input.email {
+    width: 100% !Important;
+}
+
+.pb-channel-box {
+    float: right
+}
 
 /* Mobile first queries */
 
