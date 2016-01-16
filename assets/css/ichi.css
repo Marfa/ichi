@@ -3342,6 +3342,10 @@ ul.pagination li {
     width: 50%;
 }
 
+.pb-channel-box .pb-box-container .app_box .app_name {
+    text-indent:0;
+}
+
 #at4-whatsnextmobile {
     top: 0 !Important;
     width: 80% !Important;
@@ -3349,6 +3353,10 @@ ul.pagination li {
 
 .atss a {
     border-bottom: none;
+}
+
+.at4-whatsnext .at-whatsnext-content-inner a {
+    display:inline;
 }
 
 /* Mobile first queries */
