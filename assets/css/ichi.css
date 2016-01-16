@@ -3365,6 +3365,9 @@ ul.pagination li {
 .b-widget-donate {
     display:none !Important;
 }
+.b-widget-donate form {
+    display:none !Important; 
+}
 }
 
 @media (min-width: 320px) {
@@ -3379,6 +3382,9 @@ ul.pagination li {
 .b-widget-donate {
     display:none !Important;
 }
+.b-widget-donate form {
+    display:none !Important; 
+}
 }
 
 @media (min-width: 360px) {
@@ -3392,6 +3398,9 @@ ul.pagination li {
 }
 .b-widget-donate {
     display:none !Important;
+}
+.b-widget-donate form {
+    display:none !Important; 
 }
 }
 
@@ -3409,6 +3418,9 @@ ul.pagination li {
 .b-widget-donate {
     display:none !Important;
 }
+.b-widget-donate form {
+    display:none !Important; 
+}
 }
 
 @media (min-width: 480px) {
@@ -3422,6 +3434,9 @@ ul.pagination li {
 }
 .b-widget-donate {
     display:none !Important;
+}
+.b-widget-donate form {
+    display:none !Important; 
 }
 }
 
