@@ -3356,7 +3356,7 @@ ul.pagination li {
 }
 
 .at4-whatsnext .at-whatsnext-content-inner a {
-    display:inline;
+    display:inline !Important;
 }
 
 /* Mobile first queries */
