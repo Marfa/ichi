@@ -3363,6 +3363,9 @@ ul.pagination li {
     float:left !important;
     width:100% !important;    
 }
+.b-widget-donate {
+    display:none !Important;
+}
 }
 
 @media (min-width: 320px) {
@@ -3375,6 +3378,9 @@ ul.pagination li {
     float:left !important;
     width:100% !important;    
 }
+.b-widget-donate {
+    display:none !Important;
+}
 }
 
 @media (min-width: 360px) {
@@ -3386,6 +3392,9 @@ ul.pagination li {
     display:none !important;
     float:left !important;
     width:100% !important;    
+}
+.b-widget-donate {
+    display:none !Important;
 }
 }
 
@@ -3401,6 +3410,9 @@ ul.pagination li {
     float:left !important;
     width:100% !important;    
 }
+.b-widget-donate {
+    display:none !Important;
+}
 }
 
 @media (min-width: 480px) {
@@ -3412,6 +3424,9 @@ ul.pagination li {
     display:block !important;
     float:left !important;
     width:100% !important;
+}
+.b-widget-donate {
+    display:none !Important;
 }
 }
 
