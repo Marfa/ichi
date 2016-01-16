@@ -3346,6 +3346,10 @@ ul.pagination li {
     width: 80% !Important;
 }
 
+.container-fluid {
+    width: 90%;
+}
+
 /* Mobile first queries */
 
 @media (min-width: 240px) {
