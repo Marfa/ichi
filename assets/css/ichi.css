@@ -3360,6 +3360,8 @@ ul.pagination li {
     display: none !important}  
 .pb-channel-box {
     display:none !important;
+    float:left !important;
+    width:100% !important;    
 }
 }
 
@@ -3370,6 +3372,8 @@ ul.pagination li {
     display: none !important}  
 .pb-channel-box {
     display:none !important;
+    float:left !important;
+    width:100% !important;    
 }
 }
 
@@ -3380,6 +3384,8 @@ ul.pagination li {
     display: none !important}
 .pb-channel-box {
     display:none !important;
+    float:left !important;
+    width:100% !important;    
 }
 }
 
@@ -3392,6 +3398,8 @@ ul.pagination li {
     display: inline-block !important}
 .pb-channel-box {
     display:block !important;
+    float:left !important;
+    width:100% !important;    
 }
 }
 
@@ -3402,6 +3410,8 @@ ul.pagination li {
     display: inline-block !important}
 .pb-channel-box {
     display:block !important;
+    float:left !important;
+    width:100% !important;
 }
 }
 
@@ -3412,6 +3422,8 @@ ul.pagination li {
     display: inline-block !important}
 .pb-channel-box {
     display:block !important;
+    float:left !important;
+    width:100% !important;
 }
 }
 
