@@ -3359,9 +3359,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: none !important}  
 .pb-channel-box {
-    display:none !important;
-    float:left !important;
-    width:100% !important;    
+    float:left;
+    width:100%;   
 }
 .b-widget-donate {
     display:none !Important;
@@ -3374,9 +3373,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: none !important}  
 .pb-channel-box {
-    display:none !important;
-    float:left !important;
-    width:100% !important;    
+    float:left;
+    width:100%;   
 }
 .b-widget-donate {
     display:none !Important;
@@ -3389,9 +3387,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: none !important}
 .pb-channel-box {
-    display:none !important;
-    float:left !important;
-    width:100% !important;    
+    float:left;
+    width:100%;    
 }
 .b-widget-donate {
     display:none !Important;
@@ -3406,9 +3403,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
-    display:block !important;
-    float:left !important;
-    width:100% !important;    
+    float:left;
+    width:100%;    
 }
 .b-widget-donate {
     display:none !Important;
@@ -3421,9 +3417,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
-    display:block !important;
-    float:left !important;
-    width:100% !important;
+    float:left;
+    width:100%;
 }
 .b-widget-donate {
     display:none !Important;
@@ -3436,9 +3431,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
-    display:block !important;
-    float:left !important;
-    width:100% !important;
+    float:left;
+    width:100%;
 }
 }
 
@@ -3449,7 +3443,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
-    display:block !important;
+    float:right;
+    width:50%;
 }
 }
 
@@ -3460,7 +3455,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
-    display:block !important;
+    float:right;
+    width:50%;
 }
 }
 
@@ -3471,7 +3467,8 @@ ul.pagination li {
 .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
-    display:block !important;
+    float:right;
+    width:50%;
 }
 }
 
