@@ -3338,12 +3338,17 @@ ul.pagination li {
 }
 
 .pb-channel-box {
-    float: right
+    float: right;
+    width: 50%;
 }
 
 #at4-whatsnextmobile {
     top: 0 !Important;
     width: 80% !Important;
+}
+
+.atss a {
+    border-bottom: none;
 }
 
 /* Mobile first queries */
