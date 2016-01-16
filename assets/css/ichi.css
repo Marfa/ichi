@@ -3367,6 +3367,9 @@ ul.pagination li {
     max-width: 190px !important;
     height: auto !important;
 }
+.pb-channel-box {
+    display:none
+}
 }
 
 @media (min-width: 320px) {
