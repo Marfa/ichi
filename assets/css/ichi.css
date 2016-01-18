@@ -3329,12 +3329,12 @@ ul.pagination li {
     float: left;
 }
 
-#mc_embed_signup input.email {
+#mc_embed_signup .email {
     width: 100% !Important;
 }
 
 #mc_embed_signup input.button {
-    width: 40% !Important;
+    width: 100% !Important;
 }
 
 .pb-channel-box {
