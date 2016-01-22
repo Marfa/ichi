@@ -3371,8 +3371,8 @@ ul.pagination li {
 }
 
 .pocket-btn {
-    margin-right: -40px;
-    margin-left: 5px;
+    margin-right: -40px !Important;
+    margin-left: 5px !Important;
 }
 
 /* Mobile first queries */
