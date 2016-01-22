@@ -3359,6 +3359,11 @@ ul.pagination li {
     display:inline !Important;
 }
 
+.later{
+
+    text-indent: inherit;
+}
+
 /* Mobile first queries */
 
 @media (min-width: 240px) {
