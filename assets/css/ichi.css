@@ -3361,7 +3361,7 @@ ul.pagination li {
 
 .later{
 
-    text-indent: inherit;
+    text-indent: inherit !Important;
 }
 
 /* Mobile first queries */
