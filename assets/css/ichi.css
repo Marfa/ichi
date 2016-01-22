@@ -3364,6 +3364,10 @@ ul.pagination li {
     text-indent: inherit !Important;
 }
 
+.later a {
+    border-bottom: none;
+}
+
 /* Mobile first queries */
 
 @media (min-width: 240px) {
