@@ -3362,7 +3362,7 @@ ul.pagination li {
 .later{
 
     text-indent: inherit !Important;
-    display: inline-flex;
+    margin-bottom: 15px;
 }
 
 .later a {
@@ -3370,9 +3370,8 @@ ul.pagination li {
     margin-left: 5px;
 }
 
-.pocket-btn {
-    margin-right: -40px !Important;
-    margin-left: 5px !Important;
+.later p {
+    text-indent: inherit;
 }
 
 /* Mobile first queries */
