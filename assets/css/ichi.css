@@ -3369,7 +3369,7 @@ ul.pagination li {
 }
 
 .later p {
-    text-indent: inherit;
+    text-indent: inherit !Important;
 }
 
 .myButton {
