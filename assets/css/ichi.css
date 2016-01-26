@@ -3351,7 +3351,7 @@ ul.pagination li {
     width: 80% !Important;
 }
 
-.atss a {
+.atss a, .orphus a {
     border-bottom: none;
 }
 
