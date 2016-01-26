@@ -3417,92 +3417,50 @@ ul.pagination li {
 /* Mobile first queries */
 
 @media (min-width: 240px) {
-.snack {
+.snack, .fb_iframe_widget, .orphus {
     display: none !important}
-.fb_iframe_widget {
-    display: none !important}  
 .pb-channel-box {
     float:left;
     width:100%;   
 }
-.b-widget-donate {
-    display:none !Important;
 }
-.b-widget-donate form {
-    display:none !Important; 
+
+@media (min-width: 320px) {
+.snack, .fb_iframe_widget, .orphus {
+    display: none !important}
+.pb-channel-box {
+    float:left;
+    width:100%;   
+}
+}
+
+@media (min-width: 360px) {
+.snack, .fb_iframe_widget, .orphus {
+    display: none !important}
+.pb-channel-box {
+    float:left;
+    width:100%;    
 }
 .orphus {
     display: none;
 }
 }
 
-@media (min-width: 320px) {
-.snack {
-    display: none !important}
-.fb_iframe_widget {
-    display: none !important}  
-.pb-channel-box {
-    float:left;
-    width:100%;   
-}
-.b-widget-donate {
-    display:none !Important;
-}
-.b-widget-donate form {
-    display:none !Important; 
-}
-.orphus {
-    float: right;
-    font-size: 0.7em;
-}
-}
-
-@media (min-width: 360px) {
-.snack {
-    display: none !important}
-.fb_iframe_widget {
-    display: none !important}
-.pb-channel-box {
-    float:left;
-    width:100%;    
-}
-.b-widget-donate {
-    display:none !Important;
-}
-.b-widget-donate form {
-    display:none !Important; 
-}
-.orphus {
-    float: right;
-    font-size: 0.7em;
-}
-}
-
 /* Larger than phablet */
 
 @media (min-width: 400px) {
-.snack {
+.snack, .orphus {
     display: none !important}
 .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
     float:left;
     width:100%;    
-}
-.b-widget-donate {
-    display:none !Important;
-}
-.b-widget-donate form {
-    display:none !Important; 
-}
-.orphus {
-    float: right;
-    font-size: 0.7em;
 }
 }
 
 @media (min-width: 480px) {
-.snack {
+.snack, .orphus {
     display: none !important}
 .fb_iframe_widget {
     display: inline-block !important}
@@ -3510,38 +3468,23 @@ ul.pagination li {
     float:left;
     width:100%;
 }
-.b-widget-donate {
-    display:none !Important;
-}
-.b-widget-donate form {
-    display:none !Important; 
-}
-.orphus {
-    float: right;
-    font-size: 0.7em;
-}
 }
 
 @media (min-width: 550px) {
-.snack {
-    display: inline-block !important}
-.fb_iframe_widget {
+.snack, .fb_iframe_widget {
     display: inline-block !important}
 .pb-channel-box {
     float:left;
     width:100%;
 }
 .orphus {
-    float: right;
-    font-size: 0.7em;
+    display: none;
 }
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-.snack {
-    display: inline-block !important}
-.fb_iframe_widget {
+.snack, .fb_iframe_widget, .orphus {
     display: inline-block !important}
 .pb-channel-box {
     float:right;
@@ -3551,9 +3494,7 @@ ul.pagination li {
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-.snack {
-    display: inline-block !important}
-.fb_iframe_widget {
+.snack, .fb_iframe_widget, .orphus {
     display: inline-block !important}
 .pb-channel-box {
     float:right;
@@ -3563,9 +3504,7 @@ ul.pagination li {
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-.snack {
-    display: inline-block !important}
-.fb_iframe_widget {
+.snack, .fb_iframe_widget, .orphus {
     display: inline-block !important}
 .pb-channel-box {
     float:right;
