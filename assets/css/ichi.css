@@ -3409,6 +3409,10 @@ ul.pagination li {
 	top:1px;
 }
 
+.orphus {
+    float: right;
+    font-size: 0.7em;
+}
 
 /* Mobile first queries */
 
@@ -3427,6 +3431,9 @@ ul.pagination li {
 .b-widget-donate form {
     display:none !Important; 
 }
+.orphus {
+    display: none;
+}
 }
 
 @media (min-width: 320px) {
@@ -3444,6 +3451,10 @@ ul.pagination li {
 .b-widget-donate form {
     display:none !Important; 
 }
+.orphus {
+    float: right;
+    font-size: 0.7em;
+}
 }
 
 @media (min-width: 360px) {
@@ -3460,6 +3471,10 @@ ul.pagination li {
 }
 .b-widget-donate form {
     display:none !Important; 
+}
+.orphus {
+    float: right;
+    font-size: 0.7em;
 }
 }
 
@@ -3480,6 +3495,10 @@ ul.pagination li {
 .b-widget-donate form {
     display:none !Important; 
 }
+.orphus {
+    float: right;
+    font-size: 0.7em;
+}
 }
 
 @media (min-width: 480px) {
@@ -3497,6 +3516,10 @@ ul.pagination li {
 .b-widget-donate form {
     display:none !Important; 
 }
+.orphus {
+    float: right;
+    font-size: 0.7em;
+}
 }
 
 @media (min-width: 550px) {
@@ -3507,6 +3530,10 @@ ul.pagination li {
 .pb-channel-box {
     float:left;
     width:100%;
+}
+.orphus {
+    float: right;
+    font-size: 0.7em;
 }
 }
 
