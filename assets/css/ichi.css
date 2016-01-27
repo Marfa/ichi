@@ -3412,6 +3412,7 @@ ul.pagination li {
 .orphus {
     float: right;
     font-size: 0.7em;
+    border-bottom: none;
 }
 
 /* Mobile first queries */
@@ -7659,6 +7660,10 @@ a:hover {
     border-radius:8px;
     text-align:center;
     line-height:2.3
+}
+
+.post-template .post .author a {
+    color: white !Important;
 }
 
 @media (max-width: 360px) {
