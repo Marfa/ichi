@@ -7662,10 +7662,6 @@ a:hover {
     line-height:2.3
 }
 
-.post-template .post .author a {
-    color: white !Important;
-}
-
 @media (max-width: 360px) {
     .post-template .post .author {
     display:none;
@@ -7731,6 +7727,11 @@ a:hover {
 .post-template .post .author footer {
     padding:10px
 }
+
+.post-template .post .author footer {
+    color: white;
+}
+
 .post-template .post .author footer p {
     margin:0;
     text-align:left;
