@@ -7728,7 +7728,7 @@ a:hover {
     padding:10px
 }
 
-.post-template .post .author footer {
+.post-template .post .author footer p a{
     color: white;
 }
 
