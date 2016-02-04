@@ -7206,7 +7206,7 @@ a:hover {
     transform:scale(1.1)
 }
 .site-head .blog-title {
-    margin:0.7rem 0 1rem;
+    margin-bottom:1rem;
     font-weight:400;
     text-transform:uppercase;
     color:white;

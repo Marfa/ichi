@@ -75,7 +75,7 @@
             <ul class="side-nav blog-menu show-for-large-up">
                 {{navigation}}
             </ul>
-            <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+            <a class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a>
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img alt="{{@blog.title}}" src="{{@blog.logo}}" alt="Логотип блога" /></a>{{/if}}
             <hr>
             <p class="blog-description">{{@blog.description}}</p>
