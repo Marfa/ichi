@@ -7673,7 +7673,7 @@ a:hover {
 @media screen and(min-width: 64.063em) {
     .post-template .post .author {
         float:right;
-        margin-top:0
+        margin-top:25px
     }
 }
 .post-template .post .author header span {
