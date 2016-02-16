@@ -7672,7 +7672,6 @@ a:hover {
 
 @media screen and(min-width: 64.063em) {
     .post-template .post .author {
-        width:50%;
         float:right;
         margin-top:0
     }
