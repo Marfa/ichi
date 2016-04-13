@@ -6162,8 +6162,8 @@ th.hide-for-touch {
 }
 @font-face {
     font-family:"foundation-icons";
-    src:url("//themarfa.name/font/foundation-icons/foundation-icons.eot");
-    src:url("//themarfa.name/font/foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"), url("//themarfa.name/font/foundation-icons/foundation-icons.woff") format("woff"), url("//themarfa.name/font/foundation-icons/foundation-icons.ttf") format("truetype"), url("//themarfa.name/font/foundation-icons/foundation-icons.svg#fontcustom") format("svg");
+    src:url("http://themarfa.name/font/foundation-icons/foundation-icons.eot");
+    src:url("http://themarfa.name/font/foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"), url("http://themarfa.name/font/foundation-icons/foundation-icons.woff") format("woff"), url("http://themarfa.name/font/foundation-icons/foundation-icons.ttf") format("truetype"), url("http://themarfa.name/font/foundation-icons/foundation-icons.svg#fontcustom") format("svg");
     font-weight:normal;
     font-style:normal
 }
