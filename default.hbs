@@ -43,11 +43,6 @@
     <script src='https://cdnjs.com/libraries/jquery/2.1.4'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/jquery.fluidbox.min.js'></script>
     <script async defer src="//assets.pinterest.com/js/pinit.js" rel=preload;></script>
-        <script>
-        $('a').fluidbox({
-            viewportFill: 0.8,
-        });
-    </script>
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
@@ -139,6 +134,10 @@
     h.parentNode.insertBefore(s,h);
 })(window,document);
 </script>
-        
+          <script>
+        $('a').fluidbox({
+            viewportFill: 0.8,
+        });
+    </script>      
 </body>
 </html>
