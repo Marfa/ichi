@@ -37,11 +37,11 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/ichi.css"}}" />
     <link href='//fonts.googleapis.com/css?family=Open+Sans|Roboto&subset=latin,cyrillic' rel=preload; rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" rel=preload; rel="stylesheet">
-    <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/css/fluidbox.css" />    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css/" rel=preload; rel="stylesheet">    
     <script type="text/javascript" src="{{asset "js/vendor/fastclick.js"}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" rel=preload;></script>
-    <script src='https://cdnjs.com/libraries/jquery/2.1.4'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/jquery.fluidbox.min.js'></script>
+    <script src="https://cdnjs.com/libraries/jquery/2.1.4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.js"></script>
     <script async defer src="//assets.pinterest.com/js/pinit.js" rel=preload;></script>
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -134,10 +134,5 @@
     h.parentNode.insertBefore(s,h);
 })(window,document);
 </script>
-          <script>
-        $('a').fluidbox({
-            viewportFill: 0.8,
-        });
-    </script>      
 </body>
 </html>
