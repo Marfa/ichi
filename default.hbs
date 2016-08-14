@@ -113,23 +113,7 @@
       $(document).foundation();
     </script>
 
-<!-- Fancybox -->
-<link href="{{asset "css/popup-gallery.css"}}" rel="stylesheet">
-<!-- End fancybox -->
-<script>
-$(".post-content img").wrap(function() {
-  return '<a class="fancybox" rel="gallery" href="' + $(this).attr('src') + '">' + $(this).html() + '</a>';
-});
-$(".fancybox").fancybox({
-  maxWidth: '85%',
-  maxHeight: '85%',
-  helpers: {
-	overlay: {
-	  closeClick: true
-	}
-  }
-});
-</script>
+
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56843ef5297b0da7" async="async"></script>
 <script>
