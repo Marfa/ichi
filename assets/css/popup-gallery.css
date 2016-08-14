@@ -1,0 +1,11 @@
+.post-content a.fancybox{
+  position: relative;
+  display:block;
+  text-align:center;
+}
+.post-content a.fancybox:hover:before {
+  content: url(http://www.freeiconspng.com/uploads/zoom-icon-png-16.png);
+  position: absolute;
+  right:20px;
+  top:20px;
+}
