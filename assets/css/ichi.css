@@ -3301,6 +3301,8 @@ ul.pagination li {
     text-align:justify !important
 }
 
+/*Helpers*/
+
 .gsc-search-box{
     background-color: #e1e1e1
 }
@@ -3418,6 +3420,10 @@ figcaption {
     float: right;
     font-size: 0.7em;
     border-bottom: none;
+}
+
+.addthis_horizontal_follow_toolbox_ra6j {
+    padding-left: 5%;
 }
 
 /* Mobile first queries */
