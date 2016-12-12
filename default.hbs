@@ -133,14 +133,6 @@
 })(window,document);
 </script>
 <script src="https://snip.ly/site/5659ade86e95524dc4b77a6e.js"></script>
-<scipt>$(document).ready(function() {
-	var a = new RegExp( '/' + window.location.host + '/' );
-	$('a').click(function() {
-		if ( !a.test(this.href)) {
-			window.open($(this).attr('href'));
-			return false;
-		}
-	});
-});</script>
+<scipt>jQuery(function(){jQuery('a[rel*=external]').click(function(){window.open(this.href);return false;});});</script>
 </body>
 </html>
