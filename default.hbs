@@ -39,6 +39,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel=preload; rel="stylesheet">
 	<script src="{{asset "js/vendor/fastclick.js"}}"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" rel=preload;></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" rel=preload;></script>
     <script async defer src="//assets.pinterest.com/js/pinit.js" rel=preload;></script>
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -132,5 +133,15 @@
 })(window,document);
 </script>
 <script src="https://snip.ly/site/5659ade86e95524dc4b77a6e.js"></script>
+<scipt>$('a').each(function() {
+   var a = new RegExp('/' + window.location.host + '/');
+   if(!a.test(this.href)) {
+       $(this).click(function(event) {
+           event.preventDefault();
+           event.stopPropagation();
+           window.open(this.href, '_blank');
+       });
+   }
+});</script>
 </body>
 </html>
