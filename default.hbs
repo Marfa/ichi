@@ -133,15 +133,14 @@
 })(window,document);
 </script>
 <script src="https://snip.ly/site/5659ade86e95524dc4b77a6e.js"></script>
-<scipt>var a = new RegExp('/' + window.location.host + '/');
-$('a').each(function() {
-   if(!a.test(this.href)) {
-       $(this).click(function(event) {
-           event.preventDefault();
-           event.stopPropagation();
-           window.open(this.href, '_blank');
-       });
-   }
+<scipt>$(document).ready(function() {
+	var a = new RegExp( '/' + window.location.host + '/' );
+	$('a').click(function() {
+		if ( !a.test(this.href)) {
+			window.open($(this).attr('href'));
+			return false;
+		}
+	});
 });</script>
 </body>
 </html>
