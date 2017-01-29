@@ -3959,7 +3959,7 @@ figcaption {
     .orphus {
         display: none
     }
-    .site-head .blog-description {display: none}
+    .site-head {display: none!important}
 }
 
 @media (min-width:750px) {
