@@ -3953,8 +3953,7 @@ figcaption {
 @media (min-width:750px) {
     .fb_iframe_widget,
     .orphus,
-    .snack
-    .site-head{
+    .snack {
         display: inline-block!important
     }
     .pb-channel-box {
