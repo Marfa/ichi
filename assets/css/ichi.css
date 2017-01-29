@@ -3979,10 +3979,14 @@ figcaption {
 @media (min-width:1000px) {
     .fb_iframe_widget,
     .orphus,
-    .snack,
-    .blog-description,
-    .blog-network {
+    .snack
+    {
         display: inline-block!important
+    }
+    .blog-description,
+    .blog-network
+    {
+        display: block!important
     }
     .pb-channel-box {
         float: right;
@@ -3993,10 +3997,14 @@ figcaption {
 @media (min-width:1200px) {
     .fb_iframe_widget,
     .orphus,
-    .snack,
-    .blog-description,
-    .blog-network {
+    .snack
+    {
         display: inline-block!important
+    }
+    .blog-description,
+    .blog-network
+    {
+        display:block!Important
     }
     .pb-channel-box {
         float: right;
