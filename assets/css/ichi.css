@@ -3933,8 +3933,7 @@ figcaption {
 @media (min-width:480px) {
     .orphus,
     .snack,
-    .blog-description,
-    .blog-network {
+    .site-head-content {
         display: none!important
     }
     .fb_iframe_widget {
