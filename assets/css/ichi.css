@@ -4022,7 +4022,7 @@ figcaption {
     }
     .blog-title 
     {
-    font-size: 2em
+    font-size: 2em!Important
     }
 }
 
@@ -4044,7 +4044,7 @@ figcaption {
     }
     .blog-title 
     {
-    font-size: 2em
+    font-size: 2em!Important
     }
 }
 
