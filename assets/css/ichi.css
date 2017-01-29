@@ -3872,7 +3872,9 @@ figcaption {
 @media (min-width:240px) {
     .fb_iframe_widget,
     .orphus,
-    .snack {
+    .snack,
+    .blog-description,
+    .blog-network {
         display: none!important
     }
     .pb-channel-box {
@@ -3884,7 +3886,9 @@ figcaption {
 @media (min-width:320px) {
     .fb_iframe_widget,
     .orphus,
-    .snack {
+    .snack,
+    .blog-decription,
+    .blog-network {
         display: none!important
     }
     .pb-channel-box {
@@ -3896,7 +3900,9 @@ figcaption {
 @media (min-width:360px) {
     .fb_iframe_widget,
     .orphus,
-    .snack {
+    .snack,
+    .blog-description,
+    .blog-network {
         display: none!important
     }
     .pb-channel-box {
@@ -3910,7 +3916,9 @@ figcaption {
 
 @media (min-width:400px) {
     .orphus,
-    .snack {
+    .snack,
+    .blog-description,
+    .blog-network {
         display: none!important
     }
     .fb_iframe_widget {
@@ -3924,7 +3932,9 @@ figcaption {
 
 @media (min-width:480px) {
     .orphus,
-    .snack {
+    .snack,
+    .blog-description,
+    .blog-network {
         display: none!important
     }
     .fb_iframe_widget {
@@ -3945,7 +3955,9 @@ figcaption {
         float: left;
         width: 100%
     }
-    .orphus {
+    .orphus,
+    .blog-description,
+    .blog-network {
         display: none
     }
 }
@@ -3960,6 +3972,8 @@ figcaption {
         float: right;
         width: 50%
     }
+    .blog-description,
+    .blog-network {display: none}
 }
 
 @media (min-width:1000px) {
