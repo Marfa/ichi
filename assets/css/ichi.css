@@ -3881,6 +3881,10 @@ figcaption {
         float: left;
         width: 100%
     }
+    .blog-title 
+    {
+    font-size: 90%
+    }
 }
 
 @media (min-width:320px) {
@@ -3894,6 +3898,10 @@ figcaption {
     .pb-channel-box {
         float: left;
         width: 100%
+    }
+    .blog-title 
+    {
+    font-size: 90%
     }
 }
 
@@ -3912,6 +3920,10 @@ figcaption {
     .orphus {
         display: none
     }
+    .blog-title 
+    {
+    font-size: 90%
+    }
 }
 
 @media (min-width:400px) {
@@ -3927,6 +3939,10 @@ figcaption {
     .pb-channel-box {
         float: left;
         width: 100%
+    }
+    .blog-title 
+    {
+        font-size: 90%
     }
 }
 
@@ -3944,6 +3960,10 @@ figcaption {
         float: left;
         width: 100%
     }
+    .blog-title 
+    {
+        font-size: 90%
+    }
 }
 
 @media (min-width:550px) {
@@ -3960,6 +3980,10 @@ figcaption {
     .blog-network {
         display: none
     }
+    .blog-title 
+    {
+        font-size: 90%
+    }
 }
 
 @media (min-width:750px) {
@@ -3974,6 +3998,10 @@ figcaption {
     }
     .blog-description,
     .blog-network {display: none}
+    .blog-title 
+    {
+        font-size: 90%
+    }
 }
 
 @media (min-width:1000px) {
