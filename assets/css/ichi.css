@@ -3979,7 +3979,9 @@ figcaption {
 @media (min-width:1000px) {
     .fb_iframe_widget,
     .orphus,
-    .snack {
+    .snack,
+    .blog-description,
+    .blog-network {
         display: inline-block!important
     }
     .pb-channel-box {
@@ -3991,7 +3993,9 @@ figcaption {
 @media (min-width:1200px) {
     .fb_iframe_widget,
     .orphus,
-    .snack {
+    .snack,
+    .blog-description,
+    .blog-network {
         display: inline-block!important
     }
     .pb-channel-box {
