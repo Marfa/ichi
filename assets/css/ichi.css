@@ -3872,9 +3872,7 @@ figcaption {
 @media (min-width:240px) {
     .fb_iframe_widget,
     .orphus,
-    .snack,
-    .blog-description,
-    .blog-network {
+    .snack {
         display: none!important
     }
     .pb-channel-box {
@@ -3886,9 +3884,7 @@ figcaption {
 @media (min-width:320px) {
     .fb_iframe_widget,
     .orphus,
-    .snack,
-    .blog-description,
-    .blog-network {
+    .snack {
         display: none!important
     }
     .pb-channel-box {
@@ -3900,9 +3896,7 @@ figcaption {
 @media (min-width:360px) {
     .fb_iframe_widget,
     .orphus,
-    .snack,
-    .blog-description,
-    .blog-network {
+    .snack {
         display: none!important
     }
     .pb-channel-box {
@@ -3916,9 +3910,7 @@ figcaption {
 
 @media (min-width:400px) {
     .orphus,
-    .snack,
-    .blog-description,
-    .blog-network {
+    .snack {
         display: none!important
     }
     .fb_iframe_widget {
@@ -3932,10 +3924,7 @@ figcaption {
 
 @media (min-width:480px) {
     .orphus,
-    .snack,
-    .site-head
-    .blog-description,
-    . blog-network{
+    .snack {
         display: none!important
     }
     .fb_iframe_widget {
@@ -3959,7 +3948,6 @@ figcaption {
     .orphus {
         display: none
     }
-    .site-head {display: none!important}
 }
 
 @media (min-width:750px) {
@@ -9221,7 +9209,7 @@ a:hover {
 
 @media screen and(min-width:64.063em) {
     .blog-network {
-        margin-top: 2em
+        display: none
     }
 }
 
