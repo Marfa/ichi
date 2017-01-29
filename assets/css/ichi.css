@@ -3883,7 +3883,7 @@ figcaption {
     }
     .blog-title 
     {
-    font-size: 1.5em!Important
+    font-size: 1.5em
     }
 }
 
@@ -3901,7 +3901,7 @@ figcaption {
     }
     .blog-title 
     {
-    font-size: 1.5em!Important
+    font-size: 1.5em
     }
 }
 
@@ -3922,7 +3922,7 @@ figcaption {
     }
     .blog-title 
     {
-    font-size: 1.5em!Important
+    font-size: 1.5em
     }
 }
 
@@ -3942,7 +3942,7 @@ figcaption {
     }
     .blog-title 
     {
-        font-size: 1.5em!Important
+        font-size: 1.5em
     }
 }
 
@@ -3951,10 +3951,10 @@ figcaption {
     .snack,
     .blog-description,
     .blog-network {
-        display: none!important
+        display: none
     }
     .fb_iframe_widget {
-        display: inline-block!important
+        display: inline-block
     }
     .pb-channel-box {
         float: left;
@@ -3962,7 +3962,7 @@ figcaption {
     }
     .blog-title 
     {
-        font-size: 1.5em!Important
+        font-size: 1.5em
     }
 }
 
@@ -3982,7 +3982,7 @@ figcaption {
     }
     .blog-title 
     {
-        font-size: 1.5em!Important
+        font-size: 1.5em
     }
 }
 
@@ -4000,7 +4000,7 @@ figcaption {
     .blog-network {display: none}
     .blog-title 
     {
-        font-size: 1.5em!Important
+        font-size: 1.5em
     }
 }
 
@@ -4020,6 +4020,10 @@ figcaption {
         float: right;
         width: 50%
     }
+    .blog-title 
+    {
+    font-size: 2em!Important
+    }
 }
 
 @media (min-width:1200px) {
@@ -4037,6 +4041,10 @@ figcaption {
     .pb-channel-box {
         float: right;
         width: 50%
+    }
+    .blog-title 
+    {
+    font-size: 2em!Important
     }
 }
 
