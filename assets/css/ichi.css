@@ -3933,7 +3933,9 @@ figcaption {
 @media (min-width:480px) {
     .orphus,
     .snack,
-    .site-head-content {
+    .site-head
+    .blog-description,
+    . blog-network{
         display: none!important
     }
     .fb_iframe_widget {
@@ -3947,7 +3949,9 @@ figcaption {
 
 @media (min-width:550px) {
     .fb_iframe_widget,
-    .snack {
+    .snack
+    .blog-description,
+    .blog-network {
         display: inline-block!important
     }
     .pb-channel-box {
