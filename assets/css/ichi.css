@@ -3786,6 +3786,8 @@ ul.pagination li.current a:hover {
 
 .cse .gsc-search-button input.gsc-search-button-v2,
 input.gsc-search-button-v2 {
+    width: auto;
+    height: auto;
     padding: 6px 27px;
     min-width: 13px;
     margin-top: 2px
@@ -9565,7 +9567,7 @@ a:hover {
 
 .main-column .pagination a {
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #fff;
     background: #252525
 }
