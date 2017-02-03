@@ -9629,7 +9629,7 @@ a:hover {
 }
 
 .post .read-more {
-    margin-bottom: 0;
+    margin-bottom: .7rem;
     background: #252525;
     padding: .7rem 1.6rem;
     border-radius: 3px;
