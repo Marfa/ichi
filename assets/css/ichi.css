@@ -9197,7 +9197,7 @@ span {
 
 a {
   transition: color .4s;
-  color: #265C83;
+  color: #99000;
 }
 
 a:link,
@@ -9645,7 +9645,7 @@ a.fi-list {
     width: 100%;
     font-weight: 700;
     font-size: .9rem;
-    text-transform: uppercase
+    text-transform: uppercase;
     color: white;
 }
 
