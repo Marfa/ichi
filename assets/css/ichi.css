@@ -9196,21 +9196,19 @@ span {
 }
 
 a {
-    {
   transition: color .4s;
   color: #265C83;
 }
 
 a:link,
 a:visited { color: #265C83; }
-a:hover   { color: #7FDBFF; border-bottom: 1px solid}
+a:hover   { border-bottom: 1px solid }
 a:active  {
   transition: color .3s;
-  color: #007BE6;
+  color: #990000;
 }
 
 .link { text-decoration: none; }
-}
 
 a.blog-logo,
 a.blog-network,
@@ -9223,10 +9221,6 @@ a.fi-list {
 .site-head .blog-title a {
     border-bottom: none;
     color: #fff
-}
-
-a:hover {
-    color: #1f57a1
 }
 
 #outdated {
