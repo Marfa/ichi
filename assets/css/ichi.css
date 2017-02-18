@@ -9196,10 +9196,10 @@ span {
     transition: all .3s
 }
 
-a { color: #f20553; text-decoration: none; }
+a { color: #67c3df; text-decoration: none; }
 
 
-a:hover { color: #D80649; text-decoration: none; }
+a:hover { color: #1f57a1; text-decoration: underline; }
 
 a.blog-logo,
 a.blog-network,
