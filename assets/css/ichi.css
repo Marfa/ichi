@@ -9194,6 +9194,7 @@ span {
     -o-transition: all .3s;
     -webkit-transition: all .3s;
     transition: all .3s
+    border-bottom: none;
 }
 
 a { color: #67c3df; text-decoration: none; }
