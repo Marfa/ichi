@@ -3666,6 +3666,7 @@ ul.pagination li.current a:hover {
     padding: 5px;
     border: none;
     font-weight: 300
+    color: #222;
 }
 
 .nav-menu>li>a.active {
@@ -9199,8 +9200,6 @@ a {
 	color: #c00;
 	font-weight: bold;
 	text-decoration: none;
-	padding-left: 10px;
-	background-image: url(pdf_icon.gif) no-repeat;
 }
 a:hover {
 	text-decoration: underline;
