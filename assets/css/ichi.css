@@ -9195,19 +9195,16 @@ span {
     transition: all .3s
 }
 
-a:link {
-  transition: color .4s;
-  color: #99000;
+a {
+	color: #c00;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 10px;
+	background-image: url(pdf_icon.gif) no-repeat;
 }
-
-a:visited { color: #265C83; }
-a:hover   { border-bottom: 1px solid }
-a:active  {
-  transition: color .3s;
-  color: #990000;
+a:hover {
+	text-decoration: underline;
 }
-
-.link { text-decoration: none; }
 
 a.blog-logo,
 a.blog-network,
