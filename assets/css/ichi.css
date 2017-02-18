@@ -4249,7 +4249,7 @@ a:hover {
     color: #258faf
 }
 
-a img {
+a img, a:hover {
     border: none
 }
 
