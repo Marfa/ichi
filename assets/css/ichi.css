@@ -9195,12 +9195,11 @@ span {
     transition: all .3s
 }
 
-a {
+a:link {
   transition: color .4s;
   color: #99000;
 }
 
-a:link,
 a:visited { color: #265C83; }
 a:hover   { border-bottom: 1px solid }
 a:active  {
