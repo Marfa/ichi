@@ -9196,19 +9196,21 @@ span {
 }
 
 a {
+    {
   transition: color .4s;
   color: #265C83;
 }
 
 a:link,
 a:visited { color: #265C83; }
-a:hover   { color: #7FDBFF; }
+a:hover   { color: #7FDBFF; border-bottom: 1px solid}
 a:active  {
   transition: color .3s;
   color: #007BE6;
 }
 
 .link { text-decoration: none; }
+}
 
 a.blog-logo,
 a.blog-network,
@@ -9650,6 +9652,7 @@ a:hover {
     font-weight: 700;
     font-size: .9rem;
     text-transform: uppercase
+    color: white;
 }
 
 @media screen and(min-width:40.063em) {
